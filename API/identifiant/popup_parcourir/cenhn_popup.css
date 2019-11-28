@@ -1,0 +1,73 @@
+
+html, body, form, fieldset {
+	margin: 5;
+	padding: 5;
+	font-size:10px;
+}
+
+body {
+	color: #424242;
+	background: #e9edf1;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 150%;
+}
+
+table{
+	border-collapse:collapse;
+}
+
+.classer table{
+	border-collapse:collapse;
+	margin:0px;
+	vertical-align:middle;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+input[type=text]:focus{
+	border:1px solid #bf2e2e;
+}
+
+select:focus{
+	border:1px solid #bf2e2e;
+}
+
+textarea:focus{
+	border:1px solid #bf2e2e;
+}
+
+/* Normal link */
+a {
+	color:#8dd33d;
+	text-decoration: underline;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+h1 {
+	margin-top:20px;
+	text-align:left;
+	color:#bf2f2f;
+	font-size:16px;
+}
+
+h3 {
+	text-align:left;
+	color:#424242;
+	font-size:14px;
+}
+
+p{
+font-style:italic;
+text-align:justify;
+font-size:11px;
+line-height:2;
+}
+
+.listing{
+	width: 400px;
+	height: 380px;
+	overflow: auto;
+}

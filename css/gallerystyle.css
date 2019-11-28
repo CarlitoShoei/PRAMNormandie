@@ -1,0 +1,53 @@
+/* Gallery Styles */
+
+#motioncontainer {
+/*margin:0 auto;  Uncomment this line if you wish to center the gallery on page */
+width: 165px; /* Set to gallery width, in px or percentage 165px value default*/ 
+height: 120px; /* Set to gallery height */
+}
+
+#motioncontainer ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+#motioncontainer li{
+display: inline;
+}
+
+#motioncontainer a img {
+border: 1px solid #cccccc; /* Set image border color */
+}
+
+#motioncontainer a:hover img {
+border: 1px solid navy; /* Set image border hover color */
+}
+
+#statusdiv {
+background-color: lightyellow;
+border: 1px solid gray;
+padding: 2px;
+position: absolute; /* Stop Editing Gallery Styles */
+left: -300px;
+visibility: hidden;
+}
+
+#motioncontainer a:hover {
+color: red; /* Dummy definition to overcome IE bug */
+}
+
+#alert_deleteODK{
+
+text-align:center;
+width : 170px;
+height : 50px;
+z-index: 100;
+position : absolute;
+top: 35%; /* poussé de la moitié de hauteur du référent */
+left : 50%;
+transform: translateY(-50%) translateX(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+
+/* End Gallery Styles */

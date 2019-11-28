@@ -1,0 +1,1552 @@
+html, body , iframe{
+	margin: 0;
+	padding: 0;
+	font-size:10px;
+	height:100%;
+	width:100%;
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align:top;
+}
+
+table{
+	border-collapse:collapse;
+}
+
+#infoBox p {
+	font-size:13px;
+	line-height:2;
+}
+
+#infoBox img{
+	cursor:pointer;
+}
+
+#infoBox a{
+	cursor:pointer;
+}
+
+#bodypage{
+	display:inline;
+	position:absolute;
+	height:100%;
+	width:100%;
+	z-index:30;
+	background-color:#6c7174;
+	opacity:0.9;
+}
+
+#button{
+	cursor:pointer;
+}
+
+/*****************************CSS POUR LA DIV DAFFICHAGE ACCEUIL *************************/
+#affichageacceuil{
+	padding:10px;
+	position:absolute;
+	height:400px;
+	width:800px;	
+	background-color:#e9edf1;
+	left: 50%;
+	top: 50%;
+	margin-left: -400px;
+	margin-top: -200px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:#787878;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:99;
+}
+
+#affichageacceuil h3{
+	color:black;
+	font-size:14px;
+	vertical-align:middle;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#affichageacceuil h1{
+	color:black;
+	font-size:16px;
+	vertical-align:middle;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#affichageacceuil p{
+	color:black;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:justify;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:2;
+}
+
+
+/*****************************CSS POUR LE STYLE DES TABLEAU OBSERVATEUR ETC *************************/
+
+
+.entete{
+	background-color:#e4b285;
+	border-collapse:collapse;
+	color:#727272;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	height:40px;
+}
+
+.entete th{
+	color:#727272;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.styletableau{
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	border-collapse:collapse;
+
+}
+
+.styletableau th{
+	color:#727272;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.styletableau p{
+	color:black;
+	font-size:13px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:2;
+}
+
+.stryleattribut{
+	background-color: #dce2e8;
+	font-size:11px;
+	cursor: pointer;
+	color:#727272;
+	border:0px;
+}
+
+.stryleattribut:hover{
+	color: #ffffff;
+	background-color: #89aace;
+	cursor: pointer;
+	color:#727272;
+	border:0px;
+}
+
+.stryleattribut2{
+	font-size:11px;
+	cursor: pointer;
+	color:#727272;
+	border:0px;
+}
+
+.stryleattribut2:hover{
+	color: #ffffff;
+	background-color: #89aace;
+	cursor: pointer;
+	border:0px;
+}
+
+/* STYLE TABLEAU POUR CARACTERISATION */
+.ligne_v{
+	border-right:1px solid black;
+}
+
+/*****************************CSS POUR LA DIV TEXT AFFICHAGE *************************/
+#textafficahge{
+	height:90%;
+	width:100%;
+	overflow: auto;
+	line-height:2;
+}
+
+#textafficahge legend{
+	color:black;
+	font-size:14px;
+	text-align:left;
+}
+
+#textafficahge table{
+	width:100%;
+	color:black;
+}
+
+#textafficahge tr{
+	width: 100%;
+	height: 40px;
+}
+
+#textafficahge th{
+	padding:10px;
+	text-align:center;
+	color:#727272;
+	font-size:12px;
+	vertical-align:middle;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#textafficahge td{
+	padding:10px;
+	text-align:left;
+	color:black;
+}
+
+#textafficahge hr{
+	color:black;
+	text-align:left;
+}
+
+#resultat{
+	width: 100%;
+	height: 350px;
+	overflow: auto;
+	cursor:pointer;
+
+}
+
+#resultat td{
+	padding:10px;
+	text-align:center;
+	color:#727272;
+}
+
+#resultat p{
+	color:black;
+	font-size:13px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:2;
+}
+
+#resultat h6{
+	color:#727272;
+	text-align:center;
+	font-size:12px;
+}
+
+#resultat_leg{
+	width: 100%;
+	height: 350px;
+	overflow: auto;
+	cursor:pointer;
+
+}
+
+#resultat_leg th{
+	padding:10px;
+	text-align:center;
+	color:#727272;
+}
+
+#resultat_leg td{
+	padding:10px;
+	text-align:left;
+	color:#727272;
+}
+
+#resultat_leg p{
+	color:black;
+	font-size:13px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:2;
+}
+
+#resultat_leg h6{
+	color:#727272;
+	text-align:center;
+	font-size:12px;
+}
+
+#resultat_obs{
+	width: 100%;
+	height: 430px;
+	overflow: auto;
+	cursor:pointer;
+
+}
+
+#resultat_obs td{
+	padding:10px;
+	text-align:center;
+	color:#727272;
+}
+
+#resultat_obs p{
+	color:black;
+	font-size:13px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:2;
+}
+
+#resultat_obs h6{
+	color:#727272;
+	text-align:center;
+	font-size:12px;
+}
+
+#resultat_carac{
+	width: 100%;
+	height: 460px;
+	overflow: auto;
+	cursor:pointer;
+
+}
+
+#resultat_loca{
+	width: 100%;
+	height: 440px;
+	overflow: auto;
+	cursor:pointer;
+
+}
+
+#textafficahge_carac_edit{
+	height:90%;
+	width:100%;
+	overflow: auto;
+	line-height:2;
+}
+
+#textafficahge_carac_edit legend{
+	color:black;
+	font-size:14px;
+	text-align:left;
+}
+
+#textafficahge_carac_edit table{
+	width:100%;
+	color:black;
+}
+
+#textafficahge_carac_edit tr{
+	width: 100%;
+}
+
+#textafficahge_carac_edit th{
+	padding:10px;
+	text-align:center;
+	color:#727272;
+	font-size:12px;
+	vertical-align:middle;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#textafficahge_carac_edit td{
+	padding:10px;
+	text-align:left;
+	color:black;
+}
+
+#textafficahge_carac_edit hr{
+	color:black;
+	text-align:left;
+}
+
+#resultat_carac_edit{
+	width: 100%;
+	height: 450px;
+	overflow: auto;
+	cursor:pointer;
+
+}
+
+#resultat_petit{
+	width: 100%;
+	height: 260px;
+	overflow: auto;
+	cursor:pointer;
+
+}
+
+
+
+#piedaffichage{
+	height:9%;
+	width:100%;
+}
+
+
+/*****************************CSS POUR LE BOUTON DE CONNEXION *************************/
+#connexion{
+	position:absolute;
+	height:10%;
+	width:250px;	
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	top:0px;
+	right:0px;
+	z-index:10;
+}
+
+
+.tableconnexion{
+	height:100%;
+	width:100%;
+	color:#787878;
+	border-collapse:collapse;
+}
+
+.tableconnexion img{
+	height:20px;
+}
+
+.tableconnexion td{
+	font-size:12px;
+	height:100%;
+	vertical-align:middle;
+	font-weight:blod;
+	font-weight:600;
+}
+
+.tableconnexion td#imgpram{
+	background-image:url(../img/pram_api.jpg);
+	background-position:right;
+	background-repeat:no-repeat;
+	width:50%;
+}
+
+#hover:hover{
+	background-color:#68b4fa;
+	-moz-border-radius-leftbottom:10px;
+	-webkit-border-bottom-left-radius:10px;
+	cursor:pointer;
+}
+
+/*****************************CSS POUR LA DIV IMAGE LOGO *************************/
+#imgpram{
+	position:absolute;
+	height:10%;
+	width:140px;
+	left:10px;
+	background-image:url(../img/pram_api.jpg);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+
+/*****************************CSS POUR LE FORMULAIRE DE CONNEXION *************************/
+#formconnexion{
+	position:absolute;
+	height:200px;
+	width:300px;	
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	top:0px;
+	right:0px;
+	-moz-border-radius-leftbottom:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-lefttop:10px;
+	-webkit-border-top-left-radius:10px;
+	z-index:50;
+	color:#787878;
+}
+
+.connexion_tableau{
+	height:100%;
+	width:100%;
+	color:#787878;
+	border-collapse:collapse;
+}
+
+.connexion_tableau img{
+	height:20px;
+}
+.connexion_tableau tr{
+	font-size:12px;
+	height:50px;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:blod;
+	font-weight:600;
+}
+
+.connexion_tableau td{
+	font-size:12px;
+	height:100%;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:blod;
+	font-weight:600;
+}
+
+#hover2:hover{
+	background-color:#68b4fa;
+	cursor:pointer;
+}
+/*****************************CSS POUR LA DIV EN HAUT *************************/
+#hautpage{
+	height:10%;
+	width:100%;	
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:1;
+	color:#787878;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	z-index:0;
+}
+
+/*****************************CSS POUR LA DIV EN BAS *************************/
+#baspage{
+	height:5%;
+	width:100%;	
+	background-color:#b8d1ea;/**Couleur de fond**/
+	bottom:0px;
+	opacity:1;
+	color:#787878;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	z-index:0;
+}
+
+#baspage table{
+	position:absolute;
+	height:5%;
+	width:100%;	
+	bottom:0px;
+	right:0px;
+	color:#787878;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	z-index:0;
+}
+
+#baspage a, a:hover, a:active, a:focus {
+	text-decoration: none;
+	color:#787878;
+}
+
+/*****************************CSS POUR LA DIV ERREUR CONNEXION *************************/
+#erreur_connexion{
+	position:absolute;
+	height:40px;
+	width:350px;	
+	background-color:#da7b2c;
+	opacity:0.9;
+	left: 50%;
+	top: 105px;
+	margin-left: -200px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:#787878;/**ne pas changer**/
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	z-index:100;
+}
+
+/*****************************CSS POUR LA DIV ERREUR *************************/
+#erreur{
+	position:absolute;
+	height:95px;
+	width:350px;	
+	background-color:#da7b2c;
+	opacity:0.9;
+	left: 50%;
+	top: 105px;
+	margin-left: -200px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:#787878;/**ne pas changer**/
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	z-index:100;
+}
+/*****************************CSS POUR LA DIV DES CONNEXIONS SESSION *************************/
+#connexion_session{
+	display:none;
+	position:absolute;
+	height:60px;
+	width:221px;	
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	right: 10px;
+	bottom: 18.5%;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:     10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	border-bottom-right-radius:  10px 10px;
+	color:#787878;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	z-index:10;
+}
+
+/*****************************CSS POUR LA DIV TRANSFORMATION*************************/
+#transform{
+	display:none;
+	position:absolute;
+	height:60px;
+	width:221px;	
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	right: 10px;
+	bottom: 45%;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:     10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	border-bottom-right-radius:  10px 10px;
+	color:#787878;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	z-index:10;
+}
+/*****************************CSS POUR LA DIV OPTION ZOOM *************************/
+#optionzoom{
+	padding:0px;
+	position:absolute;
+	width:189px;
+	height:54px;
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	top:10px;
+	margin-left: 35px;
+	border-top-left-radius:    10px 10px;
+	border-bottom-left-radius: 10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	color:#787878;
+	font-size:10px;
+	vertical-align:middle;
+	text-align:right;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:2;
+}
+
+#optionzoom tr{
+	font-size:13px;
+	height:30px;
+	vertical-align:middle;
+	text-align:right;
+	font-weight:blod;
+	font-weight:600;
+	color:#787878;
+}
+
+/*****************************CSS POUR LA DIV OUTIL DESSIN *************************/
+#outildessin{
+	padding:0px;
+	position:absolute;
+	width:189px;
+	height:27px;
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	top:118px;
+	margin-left: 35px;
+	border-top-left-radius:    10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-left-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	color:#787878;
+	font-size:10px;
+	vertical-align:middle;
+	text-align:right;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:10;
+}
+
+#outildessin tr{
+	font-size:13px;
+	height:30px;
+	vertical-align:middle;
+	text-align:right;
+	font-weight:blod;
+	font-weight:600;
+	color:#787878;
+}
+
+/*****************************CSS POUR LA DIV CONTROL DE COUCHE *************************/
+#ctrllayer{
+	padding:0px;
+	position:absolute;
+	width:179px;
+	height:35px;
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	top:74px;
+	margin-left: 45px;
+	border-top-left-radius:    10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-left-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	color:#787878;
+	font-size:10px;
+	vertical-align:middle;
+	text-align:right;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:2;
+}
+
+#ctrllayer tr{
+	font-size:13px;
+	height:30px;
+	vertical-align:middle;
+	text-align:right;
+	font-weight:blod;
+	font-weight:600;
+	color:#787878;
+}
+
+/*****************************CSS POUR LA DIV SOUS MENU SEARCH *************************/
+#search{
+	padding:0px;
+	position:absolute;
+	/**width:220px;**/
+	width:220px;
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	margin-left: 4px;
+	bottom:190px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:#787878;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:11;
+}
+
+#search tr{
+	font-size:13px;
+	height:30px;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:blod;
+	font-weight:600;
+	color:#787878;
+}
+
+/*****************************CSS POUR LA DIV SOUS MENU SEARCH *************************/
+#searchcoord{
+	padding:0px;
+	position:absolute;
+	/**width:220px;**/
+	width:220px;
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	margin-left: 4px;
+	bottom:10px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:#787878;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:10;
+}
+
+#searchcoord tr{
+	font-size:13px;
+	height:40px;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:blod;
+	font-weight:600;
+	color:#787878;
+}
+
+#searchcoord input{
+	font-size:12px;
+	width:80px;
+	vertical-align:middle;
+}
+
+#searchcoord img{
+	cursor:pointer;
+	width:20;
+}
+/*****************************CSS POUR LA DIV SOUS MENU LEGENDE *************************/
+#legend_icone{
+	padding:0px;
+	position:absolute;
+	/**width:220px;**/
+	width:350px;
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	right: 5px;
+	bottom:18px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:#787878;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:10;
+}
+
+#legend_icone tr{
+	font-size:13px;
+	height:40px;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:blod;
+	font-weight:600;
+	color:#787878;
+}
+/*****************************CSS POUR LA DIV SOUS MENU LEGENDE *************************/
+#legendallmare{
+	display:inline;
+	padding:0px;
+	position:absolute;
+	/**width:220px;**/
+	width:180px;
+	height:200px;
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	top: 50%;
+	right: 15px;
+	margin-top: -100px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:#787878;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:10;
+}
+
+#legendallmare tr{
+	font-size:12px;
+	height:40px;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:blod;
+	font-weight:600;
+	color:#787878;
+}
+
+#legendallmare input{
+	font-size:12px;
+	width:80px;
+	vertical-align:middle;
+}
+
+#legendallmare th{
+	cursor:pointer;
+}
+
+
+
+/*****************************CSS POUR LA DIV SOUS MENU LEGENDE *************************/
+#legend{
+	display:inline;
+	padding:0px;
+	position:absolute;
+	/**width:220px;**/
+	width:220px;
+	height:320px;
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	right: 5px;
+	bottom:15px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:#787878;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:10;
+}
+
+#legend tr{
+	font-size:12px;
+	height:40px;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:blod;
+	font-weight:600;
+	color:#787878;
+}
+
+#legend input{
+	font-size:12px;
+	width:80px;
+	vertical-align:middle;
+}
+
+#legend th{
+	cursor:pointer;
+}
+
+
+#legendedetaillee{
+display:none;
+padding:10px;
+position:absolute;
+height:600px;
+width:1000px;	
+background-color:#e9edf1;
+opacity:1;
+left: 50%;
+top: 50%;
+margin-left: -500px;
+margin-top: -300px;
+border-top-left-radius:     10px 10px;
+border-top-right-radius:    10px 10px;
+border-bottom-right-radius: 10px 10px;
+border-bottom-left-radius:  10px 10px;
+color:#787878;
+font-size:12px;
+vertical-align:middle;
+text-align:center;
+overflow: auto;
+border-collapse:collapse;
+z-index:100;
+}
+
+#legendedetaillee tr{
+	font-size:13px;
+	height:40px;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:blod;
+	font-weight:600;
+	color:#787878;
+}
+
+#legendedetaillee input{
+	font-size:12px;
+	width:80px;
+	vertical-align:middle;
+}
+
+#legendedetaillee img{
+	cursor:pointer;
+	width:20;
+}
+
+#legendedetaillee h3{
+	color:black;
+	font-size:14px;
+	vertical-align:middle;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#legendedetaillee h1{
+	color:black;
+	font-size:16px;
+	vertical-align:middle;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*****************************CSS POUR LA DIV VALIDER *************************/
+#valider{
+	padding:10px;
+	position:absolute;
+	height:80px;
+	width:350px;	
+	background-color:#618050;
+	opacity:0.9;
+	left: 50%;
+	top: 105px;
+	margin-left: -200px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:black;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	z-index:100;
+}
+
+/*****************************CSS POUR LA DIV DAFFICHAGE CENTRALE *************************/
+#allmare{
+	padding:10px;
+	display:none;
+	position:absolute;
+	height:600px;
+	width:1100px;	
+	background-color:#e9edf1;
+	opacity:1;
+	left: 50%;
+	top: 50%;
+	margin-left: -550px;
+	margin-top: -300px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:#787878;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:200;
+}
+
+/*****************************CSS POUR LA DIV DAFFICHAGE CENTRALE *************************/
+#affichage{
+	padding:10px;
+	display:none;
+	position:absolute;
+	height:600px;
+	width:1100px;	
+	background-color:#e9edf1;
+	opacity:1;
+	left: 50%;
+	top: 50%;
+	margin-left: -550px;
+	margin-top: -300px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:#787878;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:99;
+}
+
+#affichage h3{
+	color:black;
+	font-size:14px;
+	vertical-align:middle;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#affichage h1{
+	color:black;
+	font-size:16px;
+	vertical-align:middle;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#affichage p{
+	color:black;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.inscription th{
+	color:#727272;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:right;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.pied_popup{
+	border:0px;
+	background-color:#89aace;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+}
+
+#close{
+	position:absolute;
+	width:20px;	
+	background-color:#e9edf1;
+	opacity:1;
+	right: 2%;
+	top: 2%;
+	z-index:100;
+	cursor:pointer;
+}
+
+/*****************************CSS POUR LA DIV DAFFICHAGE CENTRALE OBSERVATEUR *************************/
+#observateur{
+	padding:10px;
+	display:none;
+	position:absolute;
+	height:600px;
+	width:1100px;	
+	background-color:#e9edf1;
+	opacity:1;
+	left: 50%;
+	top: 50%;
+	margin-left: -550px;
+	margin-top: -300px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:#787878;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:200;
+}
+
+#observateur h3{
+	color:black;
+	font-size:14px;
+	vertical-align:middle;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#observateur h1{
+	color:black;
+	font-size:16px;
+	vertical-align:middle;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#observateur p{
+	color:black;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*****************************CSS POURLA DIV CARTO *************************/
+#map{
+	height:85%;
+	width:100%;	
+	margin: 0;
+	padding: 0;
+	vertical-align:top;
+	z-index:1;
+}
+
+#mapminiature{
+	height:100%;
+	width:100%;	
+	margin: 0;
+	padding: 0;
+	vertical-align:top;
+	z-index:1;
+}
+
+#mapacceuil{
+	height:100%;
+	width:100%;	
+	margin: 0;
+	padding: 0;
+	vertical-align:top;
+	z-index:30;
+}
+
+/*****************************CSS POURLA LA CARTE GOOGLE MAP *************************/
+#carte_google{
+	height:100%;
+	width:100%;	
+}
+
+/*****************************CSS POUR INFO BULLE IDENTIFIANT *************************/
+
+div.idconnexion p.hint, div.logostructure p.hint {
+  display: none;
+}  
+
+
+div.idconnexion:hover > p.hint, div.logostructure:hover > p.hint  {
+  position: absolute;
+  display: block;
+  font: bold 0.8em arial,verdana,tahoma,sans-serif;
+  text-shadow: none;
+  color: #ffffff;
+  margin: 0 0 0 380px;
+  padding: 5px 5px;
+  background: #d77d2a;
+  border: 0px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;   
+  -moz-box-shadow: 1px 1px 1px #ddd;
+  -webkit-box-shadow: 1px 1px 1px #ddd;
+  box-shadow: 1px 1px 1px #ddd;  
+}
+
+/*****************************CSS POUR LA DIV MENU *************************/
+#menu{
+	padding:0px;
+	position:absolute;
+	width:800px;
+	height:10%;
+	left: 50%;
+	margin-left: -400px;
+	color:#787878;
+	font-size:12px;
+	vertical-align:middle;
+	text-align:center;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:10;
+}
+
+#menu img{
+	width:40px;
+}
+
+#menu td{
+	vertical-align:middle;
+	text-align:center;
+	color:#787878;
+	font-size:16px;
+	vertical-align:middle;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu tr{
+	height:10%;
+	vertical-align:middle;
+	text-align:center;
+}
+
+#menu table{
+	height:100%;
+	vertical-align:middle;
+	text-align:center;
+}
+
+#hover3:hover{
+	background-color:#68b4fa;
+	cursor:pointer;
+	padding:0px;
+}
+
+/*****************************CSS POUR LA DIV SOUS MENU EXPORT HRS CONNEXION *************************/
+#exporthorsconnexion{
+	display:none;
+	padding:0px;
+	position:absolute;
+	width:200px;
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	left: 50%;
+	top:11%;
+	margin-left: 200px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:#787878;
+	font-size:10px;
+	vertical-align:middle;
+	text-align:center;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:10;
+}
+
+#exporthorsconnexion tr{
+	font-size:10px;
+	height:30px;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:blod;
+	font-weight:600;
+}
+
+#exporthorsconnexion h2{
+	color:#787878;
+	font-size:11px;
+	vertical-align:middle;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	cursor:pointer;
+}
+
+
+
+/*****************************CSS POUR LA DIV SOUS MENU PRAM *************************/
+#menupram{
+	display:none;
+	padding:0px;
+	position:absolute;
+	width:200px;
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	left: 50%;
+	top:11%;
+	margin-left: -400px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:#787878;
+	font-size:10px;
+	vertical-align:middle;
+	text-align:center;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:10;
+}
+
+#menupram tr{
+	font-size:10px;
+	height:30px;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:blod;
+	font-weight:600;
+}
+
+#menupram h2{
+	color:#787878;
+	font-size:11px;
+	vertical-align:middle;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	cursor:pointer;
+}
+
+/*****************************CSS POUR LA DIV SOUS MENU EDIT *************************/
+#edit{
+	display:none;
+	padding:0px;
+	position:absolute;
+	width:200px;
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	left: 50%;
+	top:11%;
+	margin-left: -200px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:#787878;
+	font-size:10px;
+	vertical-align:middle;
+	text-align:center;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:10;
+}
+
+#edit tr{
+	font-size:10px;
+	height:30px;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:blod;
+	font-weight:600;
+}
+
+#edit h2{
+	color:#787878;
+	font-size:11px;
+	vertical-align:middle;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	cursor:pointer;
+}
+
+/*****************************CSS POUR LA DIV SOUS MENU IMPORT *************************/
+#import{
+	display:none;
+	padding:0px;
+	position:absolute;
+	width:200px;
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	left: 50%;
+	top:11%;
+	margin-left: 0px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:#787878;
+	font-size:10px;
+	vertical-align:middle;
+	text-align:center;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:10;
+}
+
+#import tr{
+	font-size:10px;
+	height:30px;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:blod;
+	font-weight:600;
+}
+
+#import h2{
+	color:#787878;
+	font-size:11px;
+	vertical-align:middle;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	cursor:pointer;
+}
+
+/*****************************CSS POUR LA DIV SOUS MENU EXPORT *************************/
+#export{
+	display:none;
+	padding:0px;
+	position:absolute;
+	width:200px;
+	background-color:#b8d1ea;/**Couleur de fond**/
+	opacity:0.9;
+	left: 50%;
+	top:11%;
+	margin-left: 200px;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+	color:#787878;
+	font-size:10px;
+	vertical-align:middle;
+	text-align:center;
+	overflow: auto;
+	border-collapse:collapse;
+	z-index:10;
+}
+
+#export tr{
+	font-size:10px;
+	height:30px;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:blod;
+	font-weight:600;
+}
+
+#export h2{
+	color:#787878;
+	font-size:11px;
+	vertical-align:middle;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	cursor:pointer;
+}
+/*******************************POUR LA PARTIE DESCRIPTION******************************/
+.description{
+	font-size:12px;	
+}
+
+.description th{
+	font-size:12px;	
+	text-align:right;
+	padding-right:40px;
+}
+
+.description td{
+	font-size:12px;	
+	text-align:left;
+	padding-left:40px;
+}
+
+
+
+
+/*******************************POUR LA PARTIE MODULE*****************************/
+.context td{
+	vertical-align:top;
+	padding-left:10px;
+	width:10%;
+}
+
+.context th{
+	font-size:13px;	
+	text-align:left;
+	width:90%;
+}
+
+.connexion legend{
+	text-align:left;
+	color:#424242;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.module h1 {
+	color:#d77d2a;
+	font-size:16px;
+	text-align:left;
+	padding-left:10px;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+}
+
+.module th{
+	font-size:13px;	
+	text-align:center;
+}
+
+.module td{
+	vertical-align:middle;
+}
+
+.module{
+	width:1000px;
+	text-align: center;
+	background-color:#e9e6e5;
+}
+
+.diagmare{
+	width:900px;
+	text-align: center;
+	background-color:#e9e6e5;
+}
+
+.diagmare h1 {
+	color:#d77d2a;
+	font-size:16px;
+	text-align:left;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+}

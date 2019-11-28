@@ -1,0 +1,295 @@
+﻿
+html, body, form, fieldset {
+	margin: 0;
+	padding: 0;
+	font-size:12px;
+}
+
+body {
+	color: #424242;
+	background: #ced6e2;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 100%;
+}
+
+table{
+	border-collapse:collapse;
+}
+
+td{
+	margin-left : 10px;
+}
+
+img{
+	border:0;
+}
+
+/* Normal link */
+a {
+	font-size:13px;
+	color:#8a979f;
+	text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: none;	
+}
+
+.bandeau{
+	width:1000px;
+	height:350px;
+	text-align: center;
+	background-image:url('../img/site/bandeau.png');
+	background-repeat:no-repeat;
+}
+
+.onglet td{
+	width:140px;
+	height:30px;
+	text-align: center;
+	vertical-align:middle;
+	background-image:url('../img/site/onglet.png');
+	background-repeat:no-repeat;
+	margin-top:1000px;
+	color:#ffffff;
+	font-size:16px;
+	text-align:center;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+}
+
+.onglet a {
+	font-size:16px;
+	color:#ffffff;
+	text-decoration: none;
+}
+
+h1 {
+	color:#ffffff;
+	font-size:16px;
+	text-align:center;
+	line-Height: 30px;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+}
+.corps{
+	width:1000px;
+	text-align: center;
+	background-color:#e9e6e5;
+}
+
+.corps h1 {
+	color:#d77d2a;
+	font-size:16px;
+	text-align:left;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+}
+
+.corps h2 {
+	font-size:23px;
+	color:#014fa2;
+	text-align:center;
+	text-decoration: none;
+	font-family: Myriad Pro
+}
+
+.corps p {
+	font-size:12px;
+	color:black;
+	text-align:justify;
+	text-decoration: none;
+	font-family: Arial, Helvetica, Myriad Pro,sans-serif;
+}
+
+.corps a {
+	font-size:12px;
+	color:#014fa2;
+	text-decoration: none;
+	font-family: Arial, Myriad Pro, Helvetica, sans-serif;
+}
+
+.corps td{
+	vertical-align:middle;
+}
+
+#fieldsetactualite {
+	font-size:13px;
+	color:black;
+	text-align: justify;
+	
+	font-family: Arial, Myriad Pro, Helvetica, sans-serif;
+}
+
+#fieldsetcorps {
+	font-size:18px;
+	color:white;
+	text-align: center;
+	border: 0px;
+	background-color: #a8b887;
+	text-decoration: none;
+	font-family: Arial, Myriad Pro, Helvetica, sans-serif;
+}
+
+#textfieldset {
+	font-size:14px;
+	color:white;
+	text-align:justify;
+	text-decoration: none;
+	font-family:  Arial, Myriad Pro, Helvetica, sans-serif;
+}
+
+
+.partenaire{
+	width:1000px;
+	text-align: center;
+	background-color:#e9e6e5;
+	
+}
+
+.partenaire td{
+	vertical-align:top;
+}
+
+#sousmenu{
+	vertical-align:top;
+}
+
+.partenaire p {
+	font-weight:bolder;
+	font-size:12px;
+	color:black;
+	text-align:left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, Myriad Pro,sans-serif;
+}
+
+.partenaire h1 {
+	color:#d77d2a;
+	font-size:16px;
+	text-align:left;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+}
+
+.presentation{
+	width:1000px;
+	text-align: center;
+	background-color:#e9e6e5;
+	
+}
+
+.presentation td{
+	vertical-align:top;
+}
+
+
+.presentation p {
+	font-size:12px;
+	color:black;
+	text-align:justify;
+	text-decoration: none;
+	font-family: Arial, Helvetica, Myriad Pro,sans-serif;
+}
+
+.presentation h1 {
+	color:#d77d2a;
+	font-size:16px;
+	text-align:left;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+}
+
+.contact{
+	width:1000px;
+	text-align: center;
+	background-color:#e9e6e5;
+}
+
+
+.body{
+	width:95%;
+	text-align: center;
+	background-color:#e9e6e5;
+	vertical-align:middle;
+}
+
+.body td{
+	vertical-align:middle;
+}
+
+.body p{
+	font-size:12px;
+}
+
+
+.menu{
+	width:180px;
+	height:820px;
+	background-repeat:no-repeat;
+}
+
+.sousmenu{
+	width:100%;
+	background-repeat:no-repeat;
+	vertical-align:top;
+	border-right:2px solid #8a979f;
+}
+
+.menu a{
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	width:100%;
+	height:50px;
+	display:block;
+}
+
+hr{
+	border:1px solid #8a979f;
+}
+
+ul li{
+text-align:left;
+font-size:12px;
+font-family: Arial, Helvetica, Myriad Pro,sans-serif;
+}
+
+p{
+text-align:justify;
+font-size:12px;
+line-height:2;
+}
+
+
+li{
+text-align:justify;
+font-size:12px;
+line-height:2;
+}
+
+
+fieldset{
+	border:1px solid #424242;
+	padding:10px;
+	text-align:justify;
+	font-size:12px;
+	line-height:2;
+	border-top-left-radius:     10px 10px;
+	border-top-right-radius:    10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:  10px 10px;
+}
+
+legend{
+	text-align:left;
+	color:#424242;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
